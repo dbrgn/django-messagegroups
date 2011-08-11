@@ -34,7 +34,7 @@ Inspired by Ben Tappin (via [mrben.co.uk](http://mrben.co.uk/entry/a-nicer-way-o
 License
 -------
 
-Copyright 2011 Factor AG
+Copyright 2011 Factor AG (http://factor.ch/)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as
