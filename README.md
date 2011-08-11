@@ -7,8 +7,11 @@ framework) and to display them grouped by category.
 Install
 -------
 
-Copy the messagegroups folder to your project and add 'messagegroups' to your INSTALLED\_APPS
-setting.
+Copy the messagegroups folder to your project or install it into your pythonpath:
+
+    # python setup.py install
+
+Then add 'messagegroups' to your INSTALLED\_APPS setting.
 
 Usage
 -----
