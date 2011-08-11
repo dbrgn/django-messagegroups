@@ -11,7 +11,7 @@ Copy the messagegroups folder to your project or install it into your pythonpath
 
     # python setup.py install
 
-Then add 'messagegroups' to your INSTALLED\_APPS setting.
+Then add `messagegroups` to your INSTALLED\_APPS setting.
 
 Usage
 -----
