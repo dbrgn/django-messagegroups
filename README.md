@@ -4,7 +4,6 @@ Django-Messagegroups
 This Django app provides a template tag to render all messages (sent via the Django messaging
 framework) and to display them grouped by category.
 
-
 Install
 -------
 
@@ -18,18 +17,15 @@ Usage
     ...
     {% render_messages messages %}
 
-
 Customize
 ---------
 
 You can customize the template by overriding the `messagegroups.html` template.
 
-
 Credits
 -------
 
 Inspired by Ben Tappin (via [mrben.co.uk](http://mrben.co.uk/entry/a-nicer-way-of-using-the-Django-messages-framework/)).
-
 
 License
 -------
