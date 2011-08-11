@@ -1,0 +1,11 @@
+{% if messages %}
+    {% for key, values in messages.items %}
+        <div class="messages {{ key.1 }}">
+            <ul>
+            {% for m in values %}
+                <li>{{ m }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+    {% endfor %}
+{% endif %}
