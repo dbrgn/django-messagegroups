@@ -1,11 +1,9 @@
 {% if messages %}
     {% for key, values in messages.items %}
-        <div class="message {{ key.1 }}">
-            <ul>
+        <div class="alert-message {{ key.1 }}">
             {% for m in values %}
-                <li>{{ m }}</li>
+                <p>{{ m }}</p>
             {% endfor %}
-            </ul>
         </div>
     {% endfor %}
 {% endif %}

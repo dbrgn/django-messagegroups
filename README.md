@@ -4,6 +4,7 @@ Django-Messagegroups
 This Django app provides a template tag to render all messages (sent via the Django messaging
 framework) and to display them grouped by category.
 
+
 Install
 -------
 
@@ -13,6 +14,11 @@ Copy the messagegroups folder to your project or install it into your pythonpath
 
 Then add `messagegroups` to your INSTALLED\_APPS setting.
 
+If you use pip and git you can also use the following command:
+
+    # pip install -e git://github.com/FactorAG/django-messagegroups.git#egg=messagegroups
+
+
 Usage
 -----
 
@@ -20,15 +26,20 @@ Usage
     ...
     {% render_messages messages %}
 
+
 Customize
 ---------
 
 You can customize the template by overriding the `messagegroups.html` template.
 
+The HTML class markup is compatible with the [Bootstrap CSS Framework](http://twitter.github.com/bootstrap/).
+
+
 Credits
 -------
 
 Inspired by Ben Tappin (via [mrben.co.uk](http://mrben.co.uk/entry/a-nicer-way-of-using-the-Django-messages-framework/)).
+
 
 License
 -------
