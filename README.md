@@ -4,6 +4,9 @@ Django-Messagegroups
 This Django app provides a template tag to render all messages (sent via the Django messaging
 framework) and to display them grouped by category.
 
+Since tag v0.2, django-messagegroups is compatible with Bootstrap 1, and since v0.3, it uses
+Bootstrap 2 markup.
+
 
 Install
 -------
