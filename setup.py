@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(name='messagegroups',
-      version='0.1.1',
+      version='0.3',
       description='Render grouped messages with the Django messaging framework',
       author='Factor AG',
       author_email='webmaster@factor.ch',
