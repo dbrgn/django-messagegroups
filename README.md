@@ -11,15 +11,15 @@ Bootstrap 2 markup.
 Install
 -------
 
-Copy the messagegroups folder to your project or install it into your pythonpath:
+The best way to install `django-messagegroups` is using pip:
 
-    # python setup.py install
+    pip install django-messagegroups
 
-Then add `messagegroups` to your INSTALLED\_APPS setting.
+To get the current development version, you can install the version from Github:
 
-If you use pip and git you can also use the following command:
+    pip install -e git://github.com/FactorAG/django-messagegroups.git#egg=messagegroups
 
-    # pip install -e git://github.com/FactorAG/django-messagegroups.git#egg=messagegroups
+Finally add `messagegroups` to your INSTALLED\_APPS setting.
 
 
 Usage
@@ -35,7 +35,7 @@ Customize
 
 You can customize the template by overriding the `messagegroups.html` template.
 
-The HTML class markup is compatible with the [Bootstrap CSS Framework](http://twitter.github.com/bootstrap/).
+The HTML class markup is compatible with the [Bootstrap CSS Framework](http://twitter.github.com/bootstrap/) (v2).
 
 
 Credits
@@ -47,7 +47,7 @@ Inspired by Ben Tappin (via [mrben.co.uk](http://mrben.co.uk/entry/a-nicer-way-o
 License
 -------
 
-Copyright 2011 Factor AG (http://factor.ch/)
+Copyright 2011-2012 Factor AG (http://factor.ch/)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as
