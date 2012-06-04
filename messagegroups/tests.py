@@ -1,5 +1,4 @@
 import unittest
-from django.template import Template
 from django.contrib.messages import DEFAULT_TAGS
 from django.contrib.messages import constants
 from templatetags.messagegroups import render_messages
