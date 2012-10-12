@@ -1,7 +1,7 @@
 Django-Messagegroups
 ====================
 
-[![Build Status](https://secure.travis-ci.org/FactorAG/django-messagegroups.png?branch=master)](http://travis-ci.org/FactorAG/django-messagegroups)
+[![Build Status](https://secure.travis-ci.org/gwrtheyrn/django-messagegroups.png?branch=master)](http://travis-ci.org/gwrtheyrn/django-messagegroups)
 
 This Django app provides a template tag to render all messages (sent via the Django messaging
 framework) and to display them grouped by category.
