@@ -5,6 +5,7 @@ from distutils.core import setup
 setup(name='django-messagegroups',
       version='0.3.0',
       description='Render grouped messages with the Django messaging framework',
+      long_description=open('README.rst').read(),
       author='Danilo Bargen',
       author_email='gezuru@gmail.ch',
       url='https://github.com/gwrtheyrn/django-messagegroups',
