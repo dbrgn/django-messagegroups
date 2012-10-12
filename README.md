@@ -19,7 +19,7 @@ The best way to install `django-messagegroups` is using pip:
 
 To get the current development version, you can install the version from Github:
 
-    pip install -e git://github.com/FactorAG/django-messagegroups.git#egg=messagegroups
+    pip install -e git://github.com/gwrtheyrn/django-messagegroups.git#egg=messagegroups
 
 Finally add `messagegroups` to your INSTALLED\_APPS setting.
 
@@ -49,7 +49,7 @@ Inspired by Ben Tappin (via [mrben.co.uk](http://mrben.co.uk/entry/a-nicer-way-o
 License
 -------
 
-Copyright 2011-2012 Factor AG (http://factor.ch/)
+Copyright 2011-2012 Danilo Bargen (http://dbrgn.ch/)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as

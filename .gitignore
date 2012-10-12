@@ -1,2 +1,6 @@
 *.pyc
 .pypirc
+MANIFEST
+/build/
+/dist/
+*.swp
