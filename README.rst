@@ -1,5 +1,5 @@
 ####################
-Django-Messagegroups
+django-messagegroups
 ####################
 
 .. image:: https://secure.travis-ci.org/gwrtheyrn/django-messagegroups.png?branch=master
