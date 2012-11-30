@@ -2,9 +2,9 @@
 django-messagegroups
 ####################
 
-.. image:: https://secure.travis-ci.org/gwrtheyrn/django-messagegroups.png?branch=master
+.. image:: https://secure.travis-ci.org/dbrgn/django-messagegroups.png?branch=master
     :alt: Build status
-    :target: http://travis-ci.org/gwrtheyrn/django-messagegroups
+    :target: http://travis-ci.org/dbrgn/django-messagegroups
 
 This Django app provides a template tag to render all messages (sent via the
 Django messaging framework) and to display them grouped by category.
@@ -23,7 +23,7 @@ The best way to install ``django-messagegroups`` is using pip::
 To get the current development version, you can install the version from
 Github::
 
-    pip install -e git://github.com/gwrtheyrn/django-messagegroups.git#egg=messagegroups
+    pip install -e git://github.com/dbrgn/django-messagegroups.git#egg=messagegroups
 
 Finally add ``messagegroups`` to your INSTALLED\_APPS setting.
 
