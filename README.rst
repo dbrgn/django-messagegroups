@@ -6,6 +6,10 @@ django-messagegroups
     :alt: Build status
     :target: http://travis-ci.org/dbrgn/django-messagegroups
 
+.. image:: https://pypip.in/d/django-messagegroups/badge.png
+    :alt: PyPI download stats
+    :target: https://crate.io/packages/django-messagegroups
+
 This Django app provides a template tag to render all messages (sent via the
 Django messaging framework) and to display them grouped by category.
 
