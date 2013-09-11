@@ -14,7 +14,7 @@ This Django app provides a template tag to render all messages (sent via the
 Django messaging framework) and to display them grouped by category.
 
 Since tag v0.2, django-messagegroups is compatible with Bootstrap 1, and since
-v0.3, it uses Bootstrap 2 markup.
+v0.3, it uses Bootstrap 2/3 markup.
 
 
 Install
@@ -48,7 +48,7 @@ Customize
 You can customize the template by overriding the ``messagegroups.html`` template.
 
 The HTML class markup is compatible with the `Bootstrap CSS Framework
-<http://twitter.github.com/bootstrap/>`_ (v2).
+<http://twitter.github.com/bootstrap/>`_ (2/3).
 
 
 Credits
