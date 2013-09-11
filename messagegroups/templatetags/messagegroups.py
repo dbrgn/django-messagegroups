@@ -21,6 +21,6 @@ TAGS = {  # Bootstrap error constant mappings
 def render_messages(messages):
     grouped = defaultdict(set)
     for m in messages:
-        tags = 'alert-{} {}'.format(TAGS[m.level], m.tags)
+        tags = 'alert-{0} {1}'.format(TAGS[m.level], m.tags)
         grouped[(m.level, tags)].add(m.message)
     return {'messages': dict(grouped)}
