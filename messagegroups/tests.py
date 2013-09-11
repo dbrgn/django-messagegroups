@@ -1,6 +1,11 @@
+# -*- coding: utf-8 -*-
+from __future__ import print_function, division, absolute_import, unicode_literals
+
 import unittest
+
 from django.contrib.messages import DEFAULT_TAGS
 from django.contrib.messages import constants
+
 from templatetags.messagegroups import render_messages
 
 
@@ -19,8 +24,10 @@ class MessagegroupsTest(unittest.TestCase):
         i1 = self.FakeMessage(constants.INFO, 'info')
 
         groups = render_messages([e1, e2, i1])
-        self.assertEqual(groups, {'messages':
-            {(40, 'error'): ['error1', 'error2'], (20, 'info'): ['info']}})
+        self.assertEqual(groups, {'messages': {
+            (40, 'alert-danger error'): set(['error1', 'error2']),
+            (20, 'alert-info info'): set(['info'])
+        }})
 
 
 if __name__ == '__main__':
