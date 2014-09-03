@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(name='django-messagegroups',
-      version='0.4.2',
+      version='0.4.3',
       description='Render grouped messages with the Django messaging framework',
       long_description=open('README.rst').read(),
       author='Danilo Bargen',
