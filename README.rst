@@ -45,7 +45,9 @@ Usage
 Customize
 =========
 
-You can customize the template by overriding the ``messagegroups.html`` template.
+You can customize the template by overriding the ``messagegroups.html``
+template. Just make sure that your app is in the ``INSTALLED_APPS`` list
+**before** the ``messagegroups`` app.
 
 The HTML class markup is compatible with the `Bootstrap CSS Framework
 <http://twitter.github.com/bootstrap/>`_ (2/3).
