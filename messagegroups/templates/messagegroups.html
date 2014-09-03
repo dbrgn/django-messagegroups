@@ -1,6 +1,6 @@
 {% if messages %}
     {% for key, values in messages.iteritems %}
-        <div class="alert {{ key.1 }}">
+        <div class="alert alert-{{ key.1 }}">
             {{ values|join:"<br>" }}
         </div>
     {% endfor %}
