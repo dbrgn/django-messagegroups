@@ -9,7 +9,7 @@ from django.contrib.messages.constants import DEBUG, INFO, SUCCESS, WARNING, ERR
 register = template.Library()
 
 TAGS = {  # Bootstrap error constant mappings
-    DEBUG: 'info',
+    DEBUG: 'info',  # There is no debug markup in bootstrap
     INFO: 'info',
     SUCCESS: 'success',
     WARNING: 'warning',
@@ -20,8 +20,13 @@ TAGS = {  # Bootstrap error constant mappings
 @register.inclusion_tag('messagegroups.html')
 def render_messages(messages):
     grouped = defaultdict(set)
+
     for m in messages:
+        # Add additional tags depending on log level
         levelname = TAGS.get(m.level) or 'level%d' % m.level
         tags = 'alert-{0} {1}'.format(levelname, m.tags)
+
+        # Group messages by level and tags
         grouped[(m.level, tags)].add(m.message)
+
     return {'messages': dict(grouped)}
