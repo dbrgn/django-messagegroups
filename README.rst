@@ -16,6 +16,9 @@ Django messaging framework) and to display them grouped by category.
 Since tag v0.2, django-messagegroups is compatible with Bootstrap 1, and since
 v0.3, it uses Bootstrap 2/3 markup.
 
+:Django support: 1.4–1.7
+:Python support: 2.6–2.7, 3.3+
+
 
 Install
 =======
