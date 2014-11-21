@@ -1,13 +1,17 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-from distutils.core import setup
+import io
+
+from setuptools import setup
+
 
 setup(name='django-messagegroups',
       version='0.4.4',
       description='Render grouped messages with the Django messaging framework',
-      long_description=open('README.rst').read(),
+      long_description=io.open('README.rst').read(),
       author='Danilo Bargen',
-      author_email='gezuru@gmail.ch',
+      author_email='mail@dbrgn.ch',
       url='https://github.com/dbrgn/django-messagegroups',
       license='MIT',
       packages=['messagegroups', 'messagegroups.templatetags'],
