@@ -6,7 +6,7 @@ Possible log types are ``[add]``, ``[bug]``, ``[change]`` and ``[info]``.
 
 ---
 
-v0.4.5 (unreleased)
+v0.4.5 (2016-03-22)
 
 - [bug] Fix Python 3 bug in default template
 
