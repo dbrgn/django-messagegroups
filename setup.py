@@ -8,7 +8,7 @@ from setuptools import setup
 
 setup(name='django-messagegroups',
       version='0.4.4',
-      description='Render grouped messages with the Django messaging framework',
+      description='Render grouped messages with the Django messaging framework.',
       long_description=io.open('README.rst').read(),
       author='Danilo Bargen',
       author_email='mail@dbrgn.ch',
@@ -31,7 +31,8 @@ setup(name='django-messagegroups',
           'Programming Language :: Python :: 3',
           'Programming Language :: Python :: 3.3',
           'Programming Language :: Python :: 3.4',
+          'Programming Language :: Python :: 3.5',
           'Topic :: Internet :: WWW/HTTP',
           'Topic :: Software Development :: Libraries :: Python Modules',
-          ],
-    )
+      ],
+)

@@ -1,5 +1,5 @@
 {% if messages %}
-    {% for key, values in messages.iteritems %}
+    {% for key, values in messages.items %}
         <div class="alert {{ key.1 }}">
             {{ values|join:"<br>" }}
         </div>

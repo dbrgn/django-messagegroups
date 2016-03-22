@@ -16,7 +16,7 @@ Django messaging framework) and to display them grouped by category.
 Since tag v0.2, django-messagegroups is compatible with Bootstrap 1, and since
 v0.3, it uses Bootstrap 2/3 markup.
 
-:Django support: 1.4–1.7
+:Django support: 1.4+
 :Python support: 2.6–2.7, 3.3+
 
 
@@ -52,7 +52,17 @@ You can customize the template by overriding the ``messagegroups.html``
 template. Just make sure that your app is in the ``INSTALLED_APPS`` list
 **before** the ``messagegroups`` app.
 
-The HTML class markup is compatible with the `Bootstrap CSS Framework
+Here's a list based example::
+
+    {% if messages %}
+        <ul>
+        {% for key, values in messages.items %}
+            <li>Level {{ key.0 }} (Tags: {{ key.1 }}): {{ values|join:" | " }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+
+The default HTML class markup is compatible with the `Bootstrap CSS Framework
 <http://twitter.github.com/bootstrap/>`_ (2/3).
 
 
@@ -68,7 +78,7 @@ License
 
 The MIT License (MIT)
 
-Copyright (c) 2011-2014 Danilo Bargen
+Copyright (c) 2011-2016 Danilo Bargen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
